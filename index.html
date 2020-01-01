@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>DevC-Istanbul</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/61a2760768.js"></script>
 </head>
-
-
 <body>
     <h1>FACEBOOK</h1>
     <h1>DEVELOPER CIRCLE</h1>
     <h2>ISTANBUL</h2>
     <div class="social-container">
-
         <a href="https://www.facebook.com/groups/DevCIstanbul/" class="facebook"><i
                 class="fab fa-facebook"></i>Facebook</a>
         <a href="https://www.linkedin.com/company/facebook-developer-circles-istanbul/" class="twitter"><i
@@ -24,35 +19,34 @@
                 class="fab fa-meetup"></i>Meetup</a>
         <a href="https://github.com/DevC-Istanbul" class="googleplus"><i class="fab fa-github"></i>Github</a>
     </div>
-    </body>
+    
+    <script src="https://kit.fontawesome.com/61a2760768.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
+        $(".twitter").hover(function() {
+        $("#social-section").toggleClass("color-twitter");
+        });
 
-    $(".twitter").hover(function() {
-    $("#social-section").toggleClass("color-twitter");
-    });
+        $(".facebook").hover(function() {
+        $("#social-section").toggleClass("color-facebook");
+        });
 
-    $(".facebook").hover(function() {
-    $("#social-section").toggleClass("color-facebook");
-    });
+        $(".googleplus").hover(function() {
+        $("#social-section").toggleClass("color-googleplus");
+        });
 
-    $(".googleplus").hover(function() {
-    $("#social-section").toggleClass("color-googleplus");
-    });
+        $(".pinterest").hover(function() {
+        $("#social-section").toggleClass("color-pinterest");
+        });
 
-    $(".pinterest").hover(function() {
-    $("#social-section").toggleClass("color-pinterest");
-    });
+        $(".dribbble").hover(function() {
+        $("#social-section").toggleClass("color-dribbble");
+        });
 
-    $(".dribbble").hover(function() {
-    $("#social-section").toggleClass("color-dribbble");
-    });
-
-    $(".instagram").hover(function() {
-    $("#social-section").toggleClass("color-instagram");
-    });
-
+        $(".instagram").hover(function() {
+        $("#social-section").toggleClass("color-instagram");
+        });
     </script>
-
+</body>
 
 </html>
